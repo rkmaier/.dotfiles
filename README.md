@@ -1,9 +1,12 @@
 # Erik's Dotfiles
 Minimal setup for unix with aliases for zsh and bash 
+ - adds minimal template for oh-my-zsh
+ - create Projects directory in users home directory
+ - adds aliases for docker,git etc..
 
 # Requirements 
  - zsh
- - ohmyzsh 
+ - oh-my-zsh 
  - autojump 
 
 # Installation
