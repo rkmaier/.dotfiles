@@ -3,7 +3,7 @@
 echo "Setting up your Server"
 
 # Create a Projects directory
-mkdir $HOME/Projects
+mkdir -p $HOME/Projects
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
