@@ -1,7 +1,5 @@
 
 # Shortcuts
-alias pbcopy='xsel --clipboard --input'
-alias pbpaste='xsel --clipboard --output'
 alias c="clear"
 
 #Custom aliases
@@ -19,7 +17,6 @@ alias dcd="docker-compose down"
 
 
 #Laravel DEV
-
 alias pa="php artisan"
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias wip="git add . && git commit -m 'wip'"
