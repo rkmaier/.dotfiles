@@ -16,7 +16,7 @@ sudo chmod +x install.sh
 
 # WSL 
 
-For wsl you will need to install the powerline fonts if using zsh otherwise character encoding wont be correct
+For wsl you will need to install the powerline fonts and selct a compatible font in the wsl terminal if using zsh otherwise the  character encoding wont be correct
 
 git clone https://github.com/powerline/fonts.git
 cd fonts
