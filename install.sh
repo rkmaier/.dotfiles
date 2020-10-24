@@ -10,7 +10,8 @@ rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
 # Load bash aliase in bash too
-echo "if [ -f ~/.bash_aliases ]; then \n . ~/.bash_aliases \n fi \n \n " >> $HOME/.bashrc
+printf "if [ -f ~/.bash_aliases ]; then \n . ~/.bash_aliases \n fi \n " >> $HOME/.bashrc
 
-source ../.bashrc
-source ../.zshrc
+source $HOME/.bashrc
+
+echo  "Installation Done"
