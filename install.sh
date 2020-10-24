@@ -12,5 +12,5 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Load bash aliase in bash too
 echo "if [ -f ~/.bash_aliases ]; then \n . ~/.bash_aliases \n fi \n \n " >> $HOME/.bashrc
 
-source $HOME/.bashrc
-source $HOME/.zshrc
+source ../.bashrc
+source ../.zshrc
