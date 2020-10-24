@@ -9,8 +9,8 @@ mkdir -p $HOME/Projects
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 
-# Load bash aliase in bash too
-printf "if [ -f ~/.bash_aliases ]; then \n . ~/.bash_aliases \n fi \n " >> $HOME/.bashrc
+# Load bash aliases in bash too
+printf "if [ -f ~/.dotfiles/.bash_aliases ]; then \n . ~/.dotfiles/.bash_aliases \n fi \n " >> $HOME/.bashrc
 
 source $HOME/.bashrc
 

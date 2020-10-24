@@ -1,10 +1,14 @@
-#Custom aliases
 
+# Shortcuts
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
+alias c="clear"
+
+#Custom aliases
 alias pj="cd ~/Projects"
 alias home="cd ~/"
 
 #Docker
-
 alias d="docker"
 alias dc="docker-compose"
 alias ds="docker ps"
@@ -29,10 +33,8 @@ alias cdao="composer dump-autoload -o"
 alias tinker='php artisan tinker'
 
 #Git
-
 alias gp="git pull"
 alias gs="git fetch && git status"
-
 
 # Npm alias
 alias np='npm'
