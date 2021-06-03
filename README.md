@@ -7,9 +7,9 @@ Minimal setup for unix with aliases for zsh and bash
 
 # Requirements 
 
- - zsh  | apt-get install zsh
- - oh-my-zsh | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
- - autojump apt-get | install autojump
+ - zsh  ( apt-get install zsh )
+ - oh-my-zsh ( sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" )
+ - autojump ( apt-get install autojump )
 
 # Installation
 
