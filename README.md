@@ -7,14 +7,14 @@ Minimal setup for unix with aliases for zsh and bash
 
 # Requirements 
 
- - zsh
- - oh-my-zsh 
- - autojump 
+ - zsh  | apt-get install zsh
+ - oh-my-zsh | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+ - autojump apt-get | install autojump
 
 # Installation
 
 ``` bash
-git clone https://github.com/rkmaier/dotfiles
+git clone https://github.com/rkmaier/.dotfiles
 sudo chmod +x install.sh 
 ./install.sh
 ```
