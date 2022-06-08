@@ -14,6 +14,7 @@ Minimal setup for unix with aliases for zsh and bash
 # Installation
 
 ``` bash
+cd ~
 git clone https://github.com/rkmaier/.dotfiles
 sudo chmod +x install.sh 
 ./install.sh
